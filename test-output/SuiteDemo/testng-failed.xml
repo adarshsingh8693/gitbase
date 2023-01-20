@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [SuiteDemo]" parallel="tests">
+  <test thread-count="2" name="test-Runner-1(failed)" parallel="tests">
+    <classes>
+      <class name="reports_Module.ForeignreportTest">
+        <methods>
+          <include name="ForeignTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configDB"/>
+          <include name="configBc"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- reports_Module.ForeignreportTest -->
+    </classes>
+  </test> <!-- test-Runner-1(failed) -->
+  <test thread-count="2" name="test-Runner-2(failed)" parallel="tests">
+    <classes>
+      <class name="reports_Module.ReportsTest">
+        <methods>
+          <include name="test"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configDB"/>
+          <include name="configBc"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- reports_Module.ReportsTest -->
+    </classes>
+  </test> <!-- test-Runner-2(failed) -->
+</suite> <!-- Failed suite [SuiteDemo] -->

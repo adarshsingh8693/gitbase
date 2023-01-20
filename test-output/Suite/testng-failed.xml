@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://www.amazon.com"/>
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="password" value="test@123"/>
+    <parameter name="username" value="testAccount01"/>
+    <classes>
+      <class name="practice_package.TestNGParamas2">
+        <methods>
+          <include name="t2_addToWishList"/>
+        </methods>
+      </class> <!-- practice_package.TestNGParamas2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

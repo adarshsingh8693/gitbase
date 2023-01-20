@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="SuiteDemo1"  >
+<listeners>
+      <listener class-name="com.Zoo_View.generic.ListernersImplemantion"/>  
+</listeners>
+  <test  name="TestDemo1" >
+    <classes>
+      <class name="reports_Module.ReportsTest"/>
+      <class name="reports_Module.ForeignreportTest"/>
+    </classes>
+  </test> <!-- TestDemo1 -->
+</suite> <!-- SuiteDemo1 -->
