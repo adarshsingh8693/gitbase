@@ -27,7 +27,7 @@ import com.google.protobuf.compiler.PluginProtos.CodeGeneratorResponse.File;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AnimalDetailsTest {
+public class AnimalDetailsDummyTest {
 
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
           
@@ -144,9 +144,10 @@ public class AnimalDetailsTest {
 			else
 				System.out.println("added animals is not verified on manage animals page");
 	       
-	System.out.println("hey i am ding changes");     
-	       
-	       
+	     
+	       System.out.println("adrshjz");
+
+	  System.out.println("adrshjz");     
 		
 	}
 
